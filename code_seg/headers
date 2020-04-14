@@ -1,0 +1,13 @@
+//C++ Headers
+
+#include <winsock2.h>			//Socket Header
+#include <windows.h>			//Win API Header
+#include <ws2tcpip.h>			//TCPIP Header
+//C Header
+#include <stdio.h>				//Input Output Header
+
+//Debug C++ Header
+#include <iostream>				//Input Output Debug Header
+
+#pragma comment(lib, "Ws2_32.lib")
+#define DEFAULT_BUFLEN 1024
