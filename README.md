@@ -14,6 +14,7 @@
 # -i-i-
 ???
 
-Something Special
-<br>
-Coming Soon
+Experimental Development of a C++/Python Remote Access Trojan
+
+- Repo has been created as a past-time play around project
+- This is <strong>NOT</strong> in active development nor will it have a production line
