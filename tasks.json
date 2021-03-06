@@ -6,15 +6,15 @@
       "label": "Build Code",
       "type": "shell",
       // For windows, uncomment g++ and comment out the linux command
-      // "command": "g++",
+      "command": "g++",
       // For Linux:
-      "command": "i686-w64-mingw32-g++",
+      //"command": "i686-w64-mingw32-g++",
       "args": [
         //Compilation Flags and Options
         "-std=c++11",
-        "seepy_server.cpp",
+        "serpnt_client.cpp",
         "-o",
-        "seepy_server.exe",
+        "client.exe",
         "-s",
         "-lws2_32",
         "-Wno-write-strings",

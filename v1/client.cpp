@@ -9,12 +9,12 @@
 #define DEFAULT_BUFLEN 1024
 
 // Debug headers
-// #include <iostream>
+#include <iostream>
 
 void exec(char* returnval, int returnsize, char *fileexec)
 {
     // std::cout << fileexec << std::endl;
-    if (32 >= (int)(ShellExecute(NULL,"open", fileexec, NULL, NULL, SW_HIDE))) //Get return value in int
+    if (32 >= (int)(ShellExecute(NULL,"open", fileexec, NULL, NULL, SW))) //Get return value in int
     {
         strcat(returnval, "[x] Error executing command..\n");
     }
